@@ -1,0 +1,58 @@
+swagger: "2.0"
+info:
+  description: "Application that inserts/updates/deletes data in the database using sqlalchemy and flask rest framework."
+  version: "1.0.0"
+  title: "SchoolAPI"
+  contact:
+    email: "LonelyLoony19@gmail.com"
+  license:
+    name: "MTI"
+    url: "https://git.foxminded.com.ua/YaroslavChyhryn/task-10-sql"
+tags:
+- name: "Courses"
+  description: "Everything about courses"
+- name: "Groups"
+  description: "Everything about Groups"
+- name: "Students"
+  description: "Everything about Students"
+definitions:
+  group:
+    type: "object"
+    properties:
+      id:
+        type: "integer"
+        format: "int64"
+      name:
+        type: "string"
+    xml:
+      name: "Group"
+  student:
+    type: "object"
+    properties:
+      id:
+        type: "integer"
+        format: "int64"
+      first_name:
+        type: "string"
+      last_name:
+        type: "string"
+      group_id:
+        type: "integer"
+        format: "int64"
+    xml:
+      name: "Student"
+  course:
+    type: "object"
+    properties:
+      id:
+        type: "integer"
+        format: "int64"
+      name:
+        type: "string"
+      desctiption:
+        type: "string"
+    xml:
+      name: "Category"
+externalDocs:
+  description: "GitLab"
+  url: "https://git.foxminded.com.ua/YaroslavChyhryn/task-10-sql"
