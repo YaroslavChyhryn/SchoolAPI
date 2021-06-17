@@ -76,14 +76,5 @@ school_api\services\services.py          75      0   100%
 TOTAL                                   460     15    97%
 
 ```
-### Todo list
-- [x] Consume json
-- [ ] Validation 
-- [ ] Response formats json/xml
-- [ ] Auth
-- [x] Swagger
-- [x] Test happy path
-- [ ] Test exceptional cases
-- [ ] Child relationship as url in response, depth param
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
