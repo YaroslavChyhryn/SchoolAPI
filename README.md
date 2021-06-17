@@ -1,4 +1,4 @@
-# Task 10 - SQL
+# SchoolAPI
 Application that inserts/updates/deletes data in the database using sqlalchemy and flask rest framework.
 
 <br>ApiDocs - ```/apidocs```, also  redirect from root - ```/```
